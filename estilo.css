@@ -1,0 +1,263 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f8f3f4;
+    color:#333;
+
+}
+
+
+/* CABECERA */
+
+header{
+
+    background:#800020;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+
+}
+
+
+header h1{
+
+    font-size:42px;
+    letter-spacing:1px;
+
+}
+
+
+header p{
+
+    margin-top:15px;
+    font-size:18px;
+
+}
+
+
+
+/* MENU */
+
+nav{
+
+    background:#4b0013;
+    padding:18px;
+    text-align:center;
+
+}
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:16px;
+    font-weight:bold;
+
+}
+
+
+nav a:hover{
+
+    color:#f5c6d0;
+
+}
+
+
+
+/* SECCION BIENVENIDA */
+
+.bienvenida{
+
+    text-align:center;
+    padding:40px 20px;
+
+}
+
+
+.bienvenida h2{
+
+    color:#800020;
+    font-size:30px;
+    margin-bottom:15px;
+
+}
+
+
+.bienvenida p{
+
+    font-size:17px;
+
+}
+
+
+
+/* TARJETAS */
+
+.contenedor{
+
+    width:90%;
+    margin:auto;
+    text-align:center;
+
+}
+
+
+
+.tarjeta{
+
+    display:inline-block;
+    vertical-align:top;
+
+    width:300px;
+    min-height:260px;
+
+    background:white;
+
+    margin:20px;
+    padding:30px;
+
+    border-radius:15px;
+
+    border-top:6px solid #800020;
+
+    box-shadow:0 8px 20px rgba(128,0,32,0.25);
+
+    transition:0.3s;
+
+}
+
+
+.tarjeta:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.tarjeta h2{
+
+    color:#800020;
+    margin-bottom:20px;
+
+}
+
+
+
+.tarjeta p{
+
+    line-height:1.7;
+
+}
+
+
+
+/* BOTON */
+
+button{
+
+    background:#800020;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 30px;
+
+    margin-top:25px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+}
+
+
+button:hover{
+
+    background:#b03050;
+
+}
+
+
+
+/* INFORMACION */
+
+.info{
+
+    background:#f3d6dc;
+
+    text-align:center;
+
+    margin-top:40px;
+
+    padding:40px;
+
+}
+
+
+.info h2{
+
+    color:#800020;
+    margin-bottom:15px;
+
+}
+
+
+
+/* PIE DE PAGINA */
+
+footer{
+
+    background:#2b000b;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:700px){
+
+
+header h1{
+
+    font-size:30px;
+
+}
+
+
+nav a{
+
+    display:block;
+    margin:12px;
+
+}
+
+
+.tarjeta{
+
+    width:85%;
+
+}
+
+
+}
+

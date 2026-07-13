@@ -1,0 +1,28 @@
+<?php
+
+function obtenerCursos(){
+
+$cursos = array(
+
+array(
+"nombre"=>"Matematicas",
+"descripcion"=>"Aprende operaciones, algebra, geometria y resolucion de problemas."
+),
+
+array(
+"nombre"=>"Ciencias",
+"descripcion"=>"Explora la naturaleza, tecnologia y avances cientificos."
+),
+
+array(
+"nombre"=>"Lenguaje",
+"descripcion"=>"Mejora tu lectura, escritura y comunicacion."
+)
+
+);
+
+return $cursos;
+
+}
+
+?>
